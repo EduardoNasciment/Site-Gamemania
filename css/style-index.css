@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: right;
+}
+.header a {
+    margin-left: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+.nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.banner {
+    background-color: #e9ecef;
+    padding: 50px 0;
+    text-align: center;
+}
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 22%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.product h2 {
+    font-size: 1.25em;
+    margin: 0;
+    color: #007bff;
+}
+.product p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+.contact-info {
+    margin: 20px 0;
+}
